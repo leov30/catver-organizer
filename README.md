@@ -1,7 +1,7 @@
 # catver-organizer
 batch script to organize roms using datafile + catver.ini
-the script will generate another script in the output folder which can be used to move/copy roms 
-the script can generate a script to copy (will add parents for matched clones and bios) games and make a playable pack or move (will add all clones for matched parents) games to removed them from the collection
+the script will generate another script in the output folder which can be used to move/copy roms<br>
+the script can generate a script to COPY (will add parents for matched clones and bios) games and make a playable pack or MOVE (will add all clones for matched parents) games to removed them from the collection
 
 * option 1 : drag and drop emulator datafile + catver.ini matching the datafile
 * option 2: only drag and drop datafile, this option will need mamediff http://www.logiqx.com/Tools/MAMEDiff/
