@@ -6,7 +6,7 @@ the script can generate a script to copy (will add parents for matched clones an
 * option 1 : drag and drop emulator datafile + catver.ini matching the datafile
 * option 2: only drag and drop datafile, this option will need mamediff http://www.logiqx.com/Tools/MAMEDiff/
 and  the current catver.ini and ARCADE.dat from https://www.progettosnaps.net/ in the _source folder next to the script
-this option is for emulators that dont have a well maintanted catver.ini, the script will matched games using mamediff to the current MAME catver.ini
+this option is for emulators that dont have a well maintanted catver.ini, the script will match games using mamediff to the current MAME catver.ini
 
 
 
