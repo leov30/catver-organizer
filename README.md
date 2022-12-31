@@ -1,5 +1,13 @@
 # catver-organizer
-batch script to organize roms using catver.ini
-needs catver.ini next to the batch script, drag and drop folder with roms and will provide the option to copy or move. can also create a seperate batch script
-the script creates a custom menu from catver.ini, then provide options to manage the list, create batch script, or copy/move roms
-* only for educational purposes
+batch script to organize roms using datafile + catver.ini
+the script will generate another script in the output folder which can be used to move/copy roms 
+the script can generate a script to copy games and make a playable pack or move games to removed them from the collection
+
+
+* option 1 : drag and drop emulator datafile + catver.ini matching the datafile
+* option 2: only drag and drop datafile, this option will need mamediff http://www.logiqx.com/Tools/MAMEDiff/
+and  the current catver.ini and ARCADE.dat from https://www.progettosnaps.net/ in the _source folder next to the script
+this option is for emulators that dont have a well maintanted catver.ini, the script will matched games using mamediff to the current MAME catver.ini
+
+
+
